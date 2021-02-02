@@ -1,0 +1,413 @@
+@media(max-width:1199px){
+	
+	h2.bannerHead {
+    font-size: 68px;
+}
+	h2.semiHead {
+    font-size: 36px;
+}
+	.banner{
+		height: 579px;
+	}
+	.btnss{
+		font-size: 16px;
+	}
+	.formControl{
+		font-size: 16px;
+	}
+	.rightTabs {
+    padding-left: 0px;
+}
+	.labelAll{
+		font-size: 9px;
+	}
+	.riskInner p{
+		font-size: 22px;
+	}
+	.contactDetails{
+		width: 100%;
+	}
+	.contactLeftin {
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    padding: 5px 25px 25px;
+     position: initial; 
+    top: 22px;
+    left: -22px;
+}
+	.contactLeftin h2{
+		padding-top: 20px;
+	}
+}
+@media(max-width:991px){
+.container {
+    max-width: 100%;
+    padding: 0px 15px;
+}
+	.bannerform .col-sm-7,.bannerform .col-sm-5{
+	flex: 0 0 100%;
+    max-width: 100%;	
+	}
+	.bannerform {
+    height: 100%;
+    padding: 25px 75px 55px;
+}
+	.bannerLeft h2.bannerHead {
+     padding-left: 0px; 
+    margin-bottom: 20px;
+		font-size: 60px;
+}
+	h2.bannerHead br,h2.semiHead br{
+		display: none;
+	}
+	h2.semiHead {
+    font-size: 30px;
+}
+.bannerImg{
+		height: 100%;
+	}
+	.banner {
+    height: 100%;
+}
+	.bannerRight{
+		width: 70%;
+	}
+	.rightTabs{
+		display: flex;
+		justify-content: center;
+		padding-top: 30px;
+	}
+	.riskInner p {
+    font-size: 20px;
+}
+	.riskBtn a {
+    font-size: 16px;
+    min-width: 300px;
+    padding: 15px;
+}
+	.whyHead h2 {
+    font-size: 36px;
+    line-height: 50px;
+    padding-bottom: 65px;
+}
+	a.whyBox{
+		min-width: 100%;
+		width: 100%;
+		min-height: 286px;
+	}
+	.whyBox h2{
+		font-size: 16px;
+	}
+	.whyBox p{
+		font-size: 14px;
+	}
+	.headerRightlIn ul li a, .headerRightrIn ul li a{
+		padding: 14px 18px;
+	}
+	.scrolltop{
+		margin-top: 53px;
+	}
+	.memberImg{
+		width: 200px;
+		height: 200px;
+	}
+	.teamMember p {
+    font-size: 26px;
+    line-height: 36px;
+ 
+}
+	.contactLeft,.contactRight {
+    width: 50%;
+}
+	.contactBtn button{
+		padding: 16px;
+		min-width: 240px;
+	}
+}
+@media(max-width:767px){
+	.headerRight{
+		    position: fixed;
+    width: 250px;
+    left: -250px;
+    top: 53px;
+    background: #000;
+    display: block;
+    height: 100%;
+		padding: 0;
+	}
+	.headerRightlIn ul li, .headerRightrIn ul li {
+		display: block;
+}
+	.serviceDown {
+    position: initial;
+    z-index: 99;
+}
+	.headerIn{
+		padding: 6px 0px;
+		display: block;
+	}
+	.hamburger{
+	    display: block;
+    position: absolute;
+    right: 0;
+		top: 21px;
+		cursor: pointer;
+		z-index: 99;
+	}
+
+.main {
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    right: 0px;
+    top: 50%;
+    background: var(--colorWhite);
+    transition-duration: 0.075s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+	.main::before {
+    position: absolute;
+    content: '';
+    top: -8px;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: var(--colorWhite);
+    transition: all 0.3s ease;
+}
+	.main::after {
+    position: absolute;
+    content: '';
+    top: 8px;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: var(--colorWhite);
+    opacity: 1;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+	.hamburger.active .main:before {
+    top: 0;
+    opacity: 0;
+    transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+	.hamburger.active .main::after {
+    top: 0px;
+    transform: rotate(-90deg);
+    transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+	.hamburger.active .main {
+    transform: rotate(45deg);
+    transition-delay: 0.12s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+		.headerLeft{
+		position: relative;
+	}
+	.bannerLeft h2.bannerHead{
+	font-size: 46px;
+}
+	.bannerform {
+  
+    padding: 25px 45px 55px;
+}
+	.btnss{
+		padding: 10px 15px;
+	}
+	.bannerRight {
+    width: 80%;
+}
+	.riskFree{
+		padding: 60px 0px;
+	}
+	.riskInner p {
+    font-size: 18px;
+}
+.riskFree .col-sm-4:nth-child(2){
+		margin: 35px 0px;
+	}
+	.riskInner p br{
+		display: none;
+	}
+	.riskBtn a {
+    min-width: 250px;
+}
+	a.whyBox {
+    min-width: 75%;
+    width: 75%;
+    min-height: 286px;
+}
+	.whyUs .col-sm-4{
+		text-align: center;
+		display: block;
+		    flex: 0 0 100%;
+    max-width: 100%;
+	}
+	.riskFree  .col-sm-4{
+		    flex: 0 0 100%;
+    max-width: 100%;	
+	}
+	.footerBottom {
+    justify-content: space-between;
+}
+	.footerLink ,.footerLink.footerSocial{
+     width: auto; 
+}
+	.ourTeamIn .col-sm-4 {
+ 
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+	.contactDetails{
+		width: 100%;
+	}
+	.contactBtn button{
+	    font-size: 16px;
+    line-height: 27px;
+    min-width: 225px;
+    padding: 15px;
+
+}
+	.contactLeftin{
+		position: initial;
+	}
+	.contactLeftin h2,.contactRight h2{
+		font-size: 32px;
+	}
+	.contactDetails{
+		display: block;
+	}
+	.contactLeft, .contactRight{
+		width: 100%;
+	}
+	.formIcon{
+		padding-top: 50px;
+	}
+	.contacthead p{
+		text-align: center;
+		padding: 15px;
+	}
+	.contactLeftin h2{
+		text-align: center;
+	}
+}
+
+@media(max-width:560px){
+.bannerLeft h2.bannerHead {
+    font-size: 38px;
+}
+	h2.semiHead {
+    font-size: 26px;
+}
+	.bannerform {
+    padding: 25px 0px 55px;
+}
+	.btnss {
+    width: 42%;
+}
+	.bannerRight {
+    width: 90%;
+}
+	.buynow p{
+		font-size: 12px;
+	}
+	.whyHead h2{
+		padding-bottom: 40px;
+	}
+	.aboutBanIn{
+		height: 250px;
+	}
+	.aboutBanIn img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	h2.head{
+		font-size: 18px;
+	}
+	.footerLink ul li a{
+		font-size: 14px;
+	}
+	h2.cryp{
+		font-size: 35px;
+	}
+	.cryptoInner h2::before{
+		width: 20%;
+	}
+	.faqContent a{
+		font-size: 18px;
+	}
+	h2.banerAk{
+		font-size: 28px;
+	}
+}
+@media(max-width:414px){
+.bannerLeft h2.bannerHead {
+    font-size: 32px;
+}
+	h2.semiHead {
+    font-size: 20px;
+}
+	.formControl {
+    font-size: 14px;
+}
+	.btnss {
+    padding: 10px 7px;
+		font-size: 13px;
+}
+	.bannerRight {
+    width: 100%;
+}
+	.fifty {
+    width: 100%;
+}
+	.buynow p {
+    font-size: 11px;
+}
+	.riskFree {
+    padding: 50px 0px;
+}
+	.riskBtn {
+    padding: 50px 0px;
+}
+	.footerBottom{
+		display: block;
+	}
+	.footerLink, .footerLink.footerSocial {
+    width: 100%;
+}
+	.footerLink.footerSocial{
+		display: block;
+	}
+	.footerSocial.footerLink ul{
+		float: left;
+		margin-bottom: 25px;
+	}
+	.footerLink:nth-child(2){
+		margin: 25px 0px;
+	}
+	.footerSocial.footerLink ul li {
+    padding-bottom: 0;
+    display: inline-block;
+    margin-right: 10px;
+}
+	.footerAll {
+    padding: 25px 0px 40px 0px;
+}
+	.copyWright p{
+		text-align: center;
+	}
+	.footerLink ul li a{
+		font-size: 14px;
+	}
+	h2.banerAk{
+		font-size: 26px;
+	}
+	.contactLeftin ul.reach li a{
+		font-size: 14px;
+	}
+	.contactRight{
+		padding: 20px;
+	}
+}
